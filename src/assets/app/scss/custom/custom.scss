@@ -1,0 +1,14 @@
+.c-mt {
+  margin-top: rem(26);
+  @include breakpoint(small) {
+    margin-top: rem(45);
+  }
+}
+
+.theme {
+  min-height: 100vh;
+}
+
+.theme.dark {
+  background-color: var(--bg-darkMode);
+}
