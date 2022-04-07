@@ -13,6 +13,11 @@ export default {
   components: {
     Nav,
   },
+  computed: {
+    themeDark() {
+      return this.$store.state.themeDark;
+    },
+  },
 };
 </script>
 <style lang="scss">
