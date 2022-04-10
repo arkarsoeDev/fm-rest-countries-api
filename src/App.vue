@@ -6,14 +6,17 @@
     <main>
       <router-view />
     </main>
+    <Footer></Footer>
   </div>
 </template>
 <script>
 import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
 export default {
   name: "App",
   components: {
     Nav,
+    Footer,
   },
   computed: {
     themeDark() {
