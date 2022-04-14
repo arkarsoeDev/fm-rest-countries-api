@@ -5,17 +5,22 @@
   background-color: var(--primary-o);
   box-shadow: var(--custom-shadow-lg);
   color: var(--secondary-o);
+  text-decoration: none;
 
   &:hover {
     color: var(--secondary-o);
+  }
+
+  &:focus {
+    box-shadow: var(--custom-shadow-lg);
   }
 
   @include breakpoint(small) {
     padding: rem(8) rem(34);
     box-shadow: var(--custom-shadow);
   }
-  @include breakpoint(large) {
-    margin-bottom: rem(10);
+  @include breakpoint(medium) {
+    margin-bottom: rem(60);
   }
   @include breakpoint(xlarge) {
     margin-bottom: rem(65);
